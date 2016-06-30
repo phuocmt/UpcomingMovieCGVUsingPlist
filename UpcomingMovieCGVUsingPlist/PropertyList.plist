@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>tenphim</key>
+			<string>Đẳng cấp thú cưng</string>
+			<key>theloai</key>
+			<string>Hoạt hình</string>
+			<key>thoiluong</key>
+			<string>96 phút</string>
+			<key>khoichieu</key>
+			<string>01/07/2016</string>
+			<key>imageurl</key>
+			<string>https://www.cgv.vn/media/catalog/product/cache/1/small_image/210x310/0f396e8a55728e79b48334e699243c07/d/a/dangcapthucung_final_240x355.jpg</string>
+		</dict>
+		<dict>
+			<key>tenphim</key>
+			<string>Huyền thoại Tarzan</string>
+			<key>theloai</key>
+			<string>Hành động</string>
+			<key>thoiluong</key>
+			<string>112 phút</string>
+			<key>khoichieu</key>
+			<string>01/07/2016</string>
+			<key>imageurl</key>
+			<string>https://www.cgv.vn/media/catalog/product/cache/1/small_image/210x310/0f396e8a55728e79b48334e699243c07/t/a/tarzan-_vnese_teaser_poster_240x355_1.jpg</string>
+		</dict>
+		<dict>
+			<key>tenphim</key>
+			<string>Thợ săn tiền thưởng</string>
+			<key>theloai</key>
+			<string>Hài hước</string>
+			<key>thoiluong</key>
+			<string>100 phút</string>
+			<key>khoichieu</key>
+			<string>01/07/2016</string>
+			<key>imageurl</key>
+			<string>https://www.cgv.vn/media/catalog/product/cache/1/small_image/210x310/0f396e8a55728e79b48334e699243c07/2/4/240x355_57_2_12.jpg</string>
+		</dict>
+		<dict>
+			<key>tenphim</key>
+			<string>Alice ở xứ sở trong gương</string>
+			<key>theloai</key>
+			<string>Thần thoại</string>
+			<key>thoiluong</key>
+			<string>Chưa rõ</string>
+			<key>khoichieu</key>
+			<string>12/08/2016</string>
+			<key>imageurl</key>
+			<string>https://www.cgv.vn/media/catalog/product/cache/1/small_image/210x310/0f396e8a55728e79b48334e699243c07/2/4/240x355_57_2_4.jpg</string>
+		</dict>
+		<dict>
+			<key>tenphim</key>
+			<string>Hoả ngục</string>
+			<key>theloai</key>
+			<string>Hình sự</string>
+			<key>thoiluong</key>
+			<string>Chưa rõ</string>
+			<key>khoichieu</key>
+			<string>28/10/2016</string>
+			<key>imageurl</key>
+			<string>https://www.cgv.vn/media/catalog/product/cache/1/small_image/210x310/0f396e8a55728e79b48334e699243c07/i/n/inferno_teaser_poster_240x355.jpg</string>
+		</dict>
+		<dict>
+			<key>tenphim</key>
+			<string>Rouge one</string>
+			<key>theloai</key>
+			<string>Phiêu lưu</string>
+			<key>thoiluong</key>
+			<string>Chưa rõ</string>
+			<key>khoichieu</key>
+			<string>16/12/2016</string>
+			<key>imageurl</key>
+			<string>https://www.cgv.vn/media/catalog/product/cache/1/small_image/210x310/0f396e8a55728e79b48334e699243c07/i/m/imdb_240x355.jpg</string>
+		</dict>
+	</array>
+</array>
+</plist>
