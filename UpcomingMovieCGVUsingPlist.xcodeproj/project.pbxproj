@@ -17,7 +17,7 @@
 		114EAB9E1D23858100D007B2 /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 114EAB9D1D23858100D007B2 /* PropertyList.plist */; };
 		114EABA11D23894E00D007B2 /* UpComingMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114EAB9F1D23894E00D007B2 /* UpComingMovieViewController.swift */; };
 		114EABA21D23894E00D007B2 /* UpComingMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114EABA01D23894E00D007B2 /* UpComingMovieViewController.xib */; };
-		114EABA51D23C65000D007B2 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114EABA41D23C65000D007B2 /* CustomTableViewController.swift */; };
+		11C74BF71D24D88D00AB3177 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C74BF61D24D88D00AB3177 /* CustomTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		114EAB9D1D23858100D007B2 /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
 		114EAB9F1D23894E00D007B2 /* UpComingMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpComingMovieViewController.swift; sourceTree = "<group>"; };
 		114EABA01D23894E00D007B2 /* UpComingMovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpComingMovieViewController.xib; sourceTree = "<group>"; };
-		114EABA41D23C65000D007B2 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewController.swift; path = ../../../.Trash/UpcomingMovieUsingPlist/UpcomingMovie/CustomTableViewController.swift; sourceTree = "<group>"; };
+		11C74BF61D24D88D00AB3177 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,17 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				114EAB821D23829600D007B2 /* AppDelegate.swift */,
-				114EAB841D23829600D007B2 /* ViewController.swift */,
 				114EAB891D23829600D007B2 /* Assets.xcassets */,
-				114EAB8B1D23829600D007B2 /* LaunchScreen.storyboard */,
-				114EAB8E1D23829600D007B2 /* Info.plist */,
-				114EABA41D23C65000D007B2 /* CustomTableViewController.swift */,
-				114EAB941D2382C300D007B2 /* CustomTableViewController.xib */,
-				114EAB991D23845100D007B2 /* CustomTableViewCell.xib */,
 				114EAB981D23845100D007B2 /* CustomTableViewCell.swift */,
+				114EAB991D23845100D007B2 /* CustomTableViewCell.xib */,
+				11C74BF61D24D88D00AB3177 /* CustomTableViewController.swift */,
+				114EAB941D2382C300D007B2 /* CustomTableViewController.xib */,
+				114EAB8E1D23829600D007B2 /* Info.plist */,
+				114EAB8B1D23829600D007B2 /* LaunchScreen.storyboard */,
+				114EAB9C1D23853A00D007B2 /* SupportingFile */,
 				114EAB9F1D23894E00D007B2 /* UpComingMovieViewController.swift */,
 				114EABA01D23894E00D007B2 /* UpComingMovieViewController.xib */,
-				114EAB9C1D23853A00D007B2 /* SupportingFile */,
+				114EAB841D23829600D007B2 /* ViewController.swift */,
 			);
 			path = UpcomingMovieCGVUsingPlist;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 				114EABA11D23894E00D007B2 /* UpComingMovieViewController.swift in Sources */,
 				114EAB9A1D23845100D007B2 /* CustomTableViewCell.swift in Sources */,
 				114EAB831D23829600D007B2 /* AppDelegate.swift in Sources */,
-				114EABA51D23C65000D007B2 /* CustomTableViewController.swift in Sources */,
+				11C74BF71D24D88D00AB3177 /* CustomTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +310,7 @@
 				114EAB931D23829600D007B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

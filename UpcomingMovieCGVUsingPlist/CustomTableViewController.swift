@@ -12,11 +12,12 @@ import UIKit
 class CustomTableViewController: UIViewController {
   
     
-    
+    let movieName = ["Đẳng cấp thú cưng","Huyền thoại Tarzan" , "Thợ săn tiền thưởng" , "Alice ở xứ sở trong gương" , "Hoả ngục" , "Rouge one"]
     
     @IBOutlet var tableView: UITableView!
     
     override func viewDidLoad() {
+        navigationItem.title = "Phim sắp chiếu"
         super.viewDidLoad()
         self.tableView.registerNib(UINib(nibName: "CustomTableViewCell", bundle: nil), forCellReuseIdentifier: "CustomTableViewCell")
         self.tableView.delegate = self
@@ -49,13 +50,12 @@ class CustomTableViewController: UIViewController {
     */
 
 }
-  /*
+
 extension CustomTableViewController : UITableViewDataSource, UITableViewDelegate {
     
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-     return
-        
+        return movieName.count
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -63,11 +63,9 @@ extension CustomTableViewController : UITableViewDataSource, UITableViewDelegate
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let icon = self.icons[indexPath.row] as? Icon
         let cell:CustomTableViewCell = self.tableView.dequeueReusableCellWithIdentifier("CustomTableViewCell") as! CustomTableViewCell
-        cell.titleLabel.text = icon?.iconTitle
-        cell.subTitleLabel.text = icon?.iconSubTitle
-        cell.iconImageView.image = UIImage(named: (icon?.iconImageName)!)
+        let row = indexPath.row
+        cell.upComingMovieName.text = movieName[row]
         return cell
     }
     
@@ -75,12 +73,11 @@ extension CustomTableViewController : UITableViewDataSource, UITableViewDelegate
         return 100
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let profileViewController = ProfileViewController()
-
-        profileViewController.icon = (self.icons[indexPath.row] as? Icon)
-        
+        let upComingMovieViewController = UpComingMovieViewController(nibName: "UpComingMovieViewController", bundle: nil)
+        upComingMovieViewController.index = indexPath.row
         self.tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        self.navigationController?.pushViewController(profileViewController, animated: true)
-    }*/
+        self.navigationController?.pushViewController(upComingMovieViewController, animated: true)
+        print(index)
+    }
   
 }
