@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "731339D2D6A4CD0E647DCA70678C5246ACBE76E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "731339D2D6A4CD0E647DCA70678C5246ACBE76E1" : 0,
+    "5E8D85D8D0D162FFB3CD16AE37AC343A918DF987" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3A6199B5-8D98-483D-A9F8-945A63B9D3E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "731339D2D6A4CD0E647DCA70678C5246ACBE76E1" : "UpcomingMovieCGVUsingPlist\/",
+    "5E8D85D8D0D162FFB3CD16AE37AC343A918DF987" : "..\/.Trash\/UpcomingMovieUsingPlist"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UpcomingMovieCGVUsingPlist",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UpcomingMovieCGVUsingPlist.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/phuocmt\/TableView2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E8D85D8D0D162FFB3CD16AE37AC343A918DF987"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/phuocmt\/UpcomingMovieCGVUsingPlist.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "731339D2D6A4CD0E647DCA70678C5246ACBE76E1"
+    }
+  ]
+}
